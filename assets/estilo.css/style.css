@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img {
+    border-radius: 100%;
+    max-width: 500px;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 4%; 
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+p {
+    padding: 0;
+    text-align: justify;
+    text-indent: 1.5cm;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 30%;
+}
+ 
+.tabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.tabs a:hover {
+    color: white;
+}
+
+.tabs .active a {
+    font-weight: bold;
+}
+
+.tab-content p {
+    text-align: justify;
+}
+
+.borda-cinza {
+    border: 1px solid gray; 
+    padding: 5px 10px; 
+    display: inline-block; 
+}
+
